@@ -1,0 +1,62 @@
+			body {
+				background-image:url("gg.jpg");
+				background-attachment: fixed;
+				background-repeat: none;
+				background-size: cover;
+				font-family: "oxanium"; 
+			}
+
+			.container {
+				width: 700px;
+				background-color: #ddd;
+				border: 10px solid #000;
+				margin-left: auto;
+				margin-right: auto;
+				height: 1900px;
+			}
+
+			.content {
+				width: 660px;
+				padding: 20px;
+			}
+
+			p {	
+				line-height: 1.5em;
+				font-size: 14pt;
+			}
+			
+			img {
+				float: left;
+				margin-right: 20px;
+				margin-bottom: 5px;
+				border: 5px solid orange;
+			}
+
+			ul {
+			list-style-type:none;
+			background-color:#333;
+			margin:0px;
+			padding:0px;
+			overflow:hidden;
+			
+			}
+			
+			li{
+			float: left;
+			width:175px;
+			}
+			li a{
+			display:block;
+			text-decoration:none;
+			padding:14px 16px;
+			text-align: center;
+			color:white;
+			}
+			
+			li a:hover {
+			background-color:#111;
+			}
+			
+			.current{
+			background-color: orange;
+			}
